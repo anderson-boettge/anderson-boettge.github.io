@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: rgb(80, 135, 199); */
+    background-image: url(./img/fundo_azul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#heading{
+    /* position: absolute; */
+    margin: 0 auto;
+    width: 50%;
+    /* left: 17%; */
+    /* width: 1000px; */
+    background: #673ab7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#text{
+    text-align: center;
+    color: rgb(255, 208, 5);
+}
+
+#quiz{   
+    height: 30%;
+    width: 45%;
+    /* position: absolute; */
+    /* left:26%; */
+    margin:0 auto;
+    top: 50%;
+    transform: translateX(-50) translateY(-50);
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#question{
+   padding: 20px;
+   font-size: 22px;
+   background: #673ab7;
+   border-radius: 10px;
+   margin: 10px 0 10px 0;
+   color: #ffffff;
+}
+
+.option{
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    /* background: #607d8b; */
+    margin: 10px 0 10px 10px;
+    padding: 10px 0 10px 0;
+    /* color: #ffffff; */
+    border-radius: 8px;
+
+}
+
+
+#next{
+   background-color:#8bc34a;
+   width: 20%;
+   height: 30px;
+   cursor: pointer;
+   padding: 10px 10px;
+   float: center;
+   border-radius: 8px;
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   margin-left: 15px;
+   bottom: 0;
+
+}
+
+#quit{
+    background-color: rgb(255, 208, 5);
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+    float: center;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    /* position: relative; */
+
+   /* flex para alinhar conteúdo*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+#result{
+    font-family: 'Roboto', sans-serif;
+	text-align: left;
+    height: 100px;
+    	width: 50%;
+    	/* position: absolute;
+        left:20%; */
+        margin:0 auto;
+        top: 50%;
+        text-align: center;
+    	transform: translateX(-50) translateY(-50);
+		/* color: rgb(255, 208, 5); */
+        padding: 20px;
+        border-radius: 8px;	
+        color: #ffffff;
+        background: #673ab7;
+        
+}
+
+#logo{
+        height:60px;
+        /* position:absolute; */
+        /* top:50%;
+        left:50%; */
+        text-align: center;
+        margin-top:50px;
+}
