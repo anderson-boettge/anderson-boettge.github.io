@@ -85,39 +85,51 @@ body{
     border-radius: 8px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    /* position: relative; */
+    position: relative;
 
    /* flex para alinhar conteúdo*/
-   display: flex;
+   /* display: flex; */
    justify-content: center;
    align-items: center;
   
 }
 
+#nAnimal{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    padding: 10px;
+}
+#perfil{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #result{
     font-family: 'Roboto', sans-serif;
 	text-align: left;
-    height: 100px;
-    	width: 50%;
-    	/* position: absolute;
-        left:20%; */
-        margin:0 auto;
-        top: 50%;
-        text-align: center;
-    	transform: translateX(-50) translateY(-50);
-		/* color: rgb(255, 208, 5); */
-        padding: 20px;
-        border-radius: 8px;	
-        color: #ffffff;
-        background: #673ab7;
+    height: 30%;
+    width: 50%;
+    /* position: absolute;
+    left:20%; */
+    margin:0 auto;
+    top: 50%;
+    text-align: center;
+    transform: translateX(-50) translateY(-50);
+    /* color: rgb(255, 208, 5); */
+    padding: 20px;
+    border-radius: 8px;	
+    color: #ffffff;
+    background: #673ab7;
         
 }
 
 #logo{
-        height:60px;
-        /* position:absolute; */
-        /* top:50%;
-        left:50%; */
-        text-align: center;
-        margin-top:50px;
+    height:60px;
+    /* position:absolute; */
+    /* top:50%;
+    left:50%; */
+    text-align: center;
+    margin-top:50px;
 }

@@ -9,8 +9,8 @@ var questions = [
 ];
 
 var perfil = [
-    "ÁGUIA: É o idealizador. Uma pessoa que gosta de fazer as coisas de forma diferente. Algumas das principais características dessa pessoa é a curiosidade, a criatividade, a intuição, a flexibilidade, a busca pela liberdade, a visão de futuro e a inovação.",
-    "LOBO: É o organizador. Sempre atento ao planejamento, pontualidade e controle. Detalhista, conservador, metódico, previsível, leal, com dificuldade de adaptação a mudanças e responsável com a realização do combinado ainda são algumas de suas características.",
-    "GATO: É o comunicador. Também sensível, que gosta de trabalhar em equipe e se relacionar com outras pessoas. Esse perfil tem como característica a necessidade de ser aceito socialmente, colocar a felicidade acima dos resultados, ser reconhecido por sua equipe e gostar de trabalhar em um ambiente harmônico.",
-    "TUBARÃO: É o executor. Aquele caracterizado por pessoas que atuam em busca do resultado, senso de urgência, impulsividade, praticidade, com foco no futuro e comprometido com objetivos."
+    ["ÁGUIA","É o idealizador. Uma pessoa que gosta de fazer as coisas de forma diferente. Algumas das principais características dessa pessoa é a curiosidade, a criatividade, a intuição, a flexibilidade, a busca pela liberdade, a visão de futuro e a inovação."],
+    ["LOBO", "É o organizador. Sempre atento ao planejamento, pontualidade e controle. Detalhista, conservador, metódico, previsível, leal, com dificuldade de adaptação a mudanças e responsável com a realização do combinado ainda são algumas de suas características."],
+    ["GATO", "É o comunicador. Também sensível, que gosta de trabalhar em equipe e se relacionar com outras pessoas. Esse perfil tem como característica a necessidade de ser aceito socialmente, colocar a felicidade acima dos resultados, ser reconhecido por sua equipe e gostar de trabalhar em um ambiente harmônico."],
+    ["TUBARÃO", "É o executor. Aquele caracterizado por pessoas que atuam em busca do resultado, senso de urgência, impulsividade, praticidade, com foco no futuro e comprometido com objetivos."]
 ];

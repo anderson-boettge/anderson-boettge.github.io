@@ -64,35 +64,57 @@ function nextques()
 		quiz.style.display='none';
 		res.style.display='';
 		var max;
+		var img = document.getElementById("animal");		
+		img.style.height = "200px";
 		if(scoreA > scoreB)
 			if(scoreA > scoreC)
-				if(scoreA > scoreD)
+				if(scoreA > scoreD){
 					max=0;
-				else
+					img.src = "aguia.png";
+				}
+				else{
 					max=3;
+					img.src = "shark.png";
+				}
 			else 
-				if(scoreC>scoreD)
+				if(scoreC>scoreD){
 					max=2;
-				else	
-					max=3;			
+					img.src = "gato.png";
+				}
+				else{
+					max=3;
+					img.src = "shark.png";
+				}			
 		else
 			 if (scoreB > scoreC)
-				if (scoreB>scoreD)
+				if (scoreB>scoreD){
 					max=1;
+					img.src = "wolf.png";
+				}
 				else 
-					if(scoreC>scoreD)
+					if(scoreC>scoreD){
 						max=2;
-					else
+						img.src = "gato.png";
+					}
+					else{
 						max=3;
+						img.src = "shark.png";
+					}
 			else 
-				if(scoreC>scoreD)
+				if(scoreC>scoreD){
 					max=2;
-				else
+					img.src = "gato.png";
+				}
+				else{
 					max=3;
-		
-		perfilD.innerHTML= perfil[max];
-	}
+					img.src = "shark.png";
+				}
 
+		var name = document.getElementById("nAnimal");
+		name.innerHTML = perfil[max][0];
+		perfilD.innerHTML= perfil[max][1];
+	}
+	
 	give_ques(quesindex);
 
 }
