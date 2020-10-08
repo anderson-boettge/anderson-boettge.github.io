@@ -62,9 +62,11 @@ body{
 
 #next{
    background-color:#8bc34a;
-   width: 20%;
-   height: 30px;
+   width: 25%;
+   /*height: 30px;*/
    cursor: pointer;
+   justify-content: center;
+   align-items: center;
    padding: 10px 10px;
    float: center;
    border-radius: 8px;
@@ -72,13 +74,12 @@ body{
    font-family: 'Roboto', sans-serif;
    margin-left: 15px;
    bottom: 0;
-
 }
 
 #quit{
     background-color: rgb(255, 208, 5);
-    width: 20%;
-    height: 30px;
+    width: 25%;
+    /*height: 30px;*/
     cursor: pointer;
     padding: 10px 10px;
     float: center;
@@ -87,12 +88,12 @@ body{
     font-family: 'Roboto', sans-serif;
     position: relative;
 
-   /* flex para alinhar conteúdo*/
+   /* flex para alinhar conteÃºdo*/
    /* display: flex; */
    justify-content: center;
-   align-items: center;
-  
+   align-items: center;  
 }
+
 
 #nAnimal{
     font-family: 'Roboto', sans-serif;
