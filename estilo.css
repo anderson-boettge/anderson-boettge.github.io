@@ -13,8 +13,6 @@ body{
     /* position: absolute; */
     margin: 0 auto;
     width: 50%;
-    /* left: 17%; */
-    /* width: 1000px; */
     background: #673ab7;
     padding: 20px;
     border-radius: 8px;
@@ -28,8 +26,6 @@ body{
 #quiz{   
     height: 30%;
     width: 45%;
-    /* position: absolute; */
-    /* left:26%; */
     margin:0 auto;
     top: 50%;
     transform: translateX(-50) translateY(-50);
@@ -62,8 +58,6 @@ body{
 
 #next{
    background-color:#8bc34a;
-   width: 25%;
-   /*height: 30px;*/
    cursor: pointer;
    justify-content: center;
    align-items: center;
@@ -78,8 +72,6 @@ body{
 
 #quit{
     background-color: rgb(255, 208, 5);
-    width: 25%;
-    /*height: 30px;*/
     cursor: pointer;
     padding: 10px 10px;
     float: center;
@@ -87,9 +79,6 @@ body{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     position: relative;
-
-   /* flex para alinhar conteÃºdo*/
-   /* display: flex; */
    justify-content: center;
    align-items: center;  
 }
@@ -112,13 +101,10 @@ body{
 	text-align: left;
     height: 30%;
     width: 50%;
-    /* position: absolute;
-    left:20%; */
     margin:0 auto;
     top: 50%;
     text-align: center;
     transform: translateX(-50) translateY(-50);
-    /* color: rgb(255, 208, 5); */
     padding: 20px;
     border-radius: 8px;	
     color: #ffffff;
@@ -128,9 +114,6 @@ body{
 
 #logo{
     height:60px;
-    /* position:absolute; */
-    /* top:50%;
-    left:50%; */
     text-align: center;
     margin-top:50px;
 }
